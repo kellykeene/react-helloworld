@@ -1,0 +1,29 @@
+{
+  "name": "react-helloworld",
+  "version": "1.0.0",
+  "description": "This is m'first React component and app.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellykeene/react-helloworld.git"
+  },
+  "author": "Kelly Keene",
+  "devDependencies": {
+    "babel-core": "^5.8.*",
+    "babel-loader": "^5.3.*",
+    "webpack": "^1.12.*",
+    "webpack-dev-server": "^1.10.*"
+  },
+  "dependencies": {
+    "react": "^0.13.*"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kellykeene/react-helloworld/issues"
+  },
+  "homepage": "https://github.com/kellykeene/react-helloworld#readme"
+}
